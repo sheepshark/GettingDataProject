@@ -1,3 +1,7 @@
+library(data.table)
+
+library(reshape2)
+
 if (!file.exists("GettingDataProject")) {
         dir.create("GettingDataProject")
 }
