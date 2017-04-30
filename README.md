@@ -4,7 +4,7 @@
 
 ### run_analysis.R will download data to working directory if it does not already exist.
 ### Then, it will read test and training data.
-### It will read activity and varible data from activity and features files.
+### It will read activity and variable data from activity and features files.
 ### It will label test and training data with activity and variable data.
 ### It will merge test and training data.
 ### Then, it creates a second, independent tidy data set with the average of each variable for each activity and each subject.
