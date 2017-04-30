@@ -85,4 +85,4 @@ melt_data <- melt(all_data, id = id_labels, measure.vars = data_labels)
 
 tidy_data <- dcast(melt_data, Subject + Activity_Label ~ variable, mean)
 
-##write.table(tidy_data, file = "./tidy_data.txt", row.names = FALSE)
+write.table(tidy_data, file = "./tidy_data.txt", row.names = FALSE)
